@@ -1,10 +1,19 @@
+
 * {
 	box-sizing: border-box;
-/*	padding: 0;
-	margin: 0;*/
+	padding: 0;
+	margin: 0;
 }
+body{
+	background: #BBBBBB;
+}
+/*-------------------------------------------*/
+
+
+/*-----------------------------------------*/
 .top-nav{
 	background: grey;
+	text-decoration: none;
 }
 .navbar {
 	display: flex;
@@ -15,6 +24,7 @@
 }
 .brand-link{
 	padding: 10px 20px;
+	color: black;
 }
 
 .nav-toggle {
@@ -28,18 +38,29 @@
 }
 .brand-link{
 	text-decoration: none;
+	content: black;
+}
+.nav-list a{
+	width: 100%;
+	color: black;
+	text-decoration: none;
+}
+
+li{
+
+	list-style: none;
+	/*text-decoration: none;*/
+	background: darkgrey;
+	color: black;
+	padding: 10px;
+	transition: .5s;
+
+}
+li:hover{
+	background: white;
+
 }
 .nav-list-collapsed {
 	display: none;
 }
-.nav-list li{
-	background: darkgrey;
-	padding: 10px;
-	list-style: none;
-	text-decoration: none;
-	transition: .5s;
-
-}
-.nav-list li:hover{
-	background: white;
-}
+/*-------------------------------------------------------*/
