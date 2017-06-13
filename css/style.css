@@ -9,17 +9,37 @@
 .navbar {
 	display: flex;
 	font-size: 25px;
-	padding: 10px 20px;
+	/*padding: 10px 20px;*/
 /*	background: grey;*/
 
 }
+.brand-link{
+	padding: 10px 20px;
+}
 
 .nav-toggle {
+	/*background: blue;*/
+	padding: 10px;
 	margin-left: auto;
+	transition: .5s;
+}
+.nav-toggle:hover{
+	background: lightgrey;
 }
 .brand-link{
 	text-decoration: none;
 }
 .nav-list-collapsed {
 	display: none;
+}
+.nav-list li{
+	background: darkgrey;
+	padding: 10px;
+	list-style: none;
+	text-decoration: none;
+	transition: .5s;
+
+}
+.nav-list li:hover{
+	background: white;
 }
